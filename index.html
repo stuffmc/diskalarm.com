@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Disk Alarm : Tell me before it's too late!</title>
+  <!--[if IE]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+	<style type="text/css">
+	body {
+		font-size: xx-large;
+		text-align: center;
+	}
+	</style>
+	<script type="text/javascript" src="http://purl.eligrey.com/github/l10n.js/raw/master/demo/json2.min.js"></script>
+	<script type="text/javascript" src="http://purl.eligrey.com/github/l10n.js/raw/master/l10n.min.js"></script>
+	<script type="text/javascript" src="http://purl.eligrey.com/github/l10n.js/raw/master/demo/localizations.js"></script>
+</head>
+<body>
+	<h1 id="title">l10n.js demo</h1>
+	<p id="info">Your locale is unsupported.</p>
+	<script type="text/javascript">
+		if (location.hash) {
+			String.locale = location.hash.substr(2);	
+		}
+		
+		var localize = function (string, fallback) {
+			var localized = string.toLocaleString();
+			if (localized !== string) {
+				return localized;
+			} else {
+				return fallback;
+			}
+		};
+		
+		var info = document.getElementById("info").firstChild,
+		title = document.getElementById("title").firstChild;
+		
+		info.nodeValue = localize("%info", info.nodeValue);
+		document.title = title.nodeValue = localize("%title", title.nodeValue);
+		document.documentElement.dir = localize("%locale.dir", document.documentElement.dir);
+		
+		document.documentElement.lang = String.locale || document.documentElement.lang;
+		</script>
+		<script type="text/javascript" src="http://www.google-analytics.com/ga.js"></script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-4364432-7");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+</body>
+</html>

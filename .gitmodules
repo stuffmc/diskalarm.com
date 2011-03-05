@@ -1,0 +1,3 @@
+[submodule "l10n.js"]
+	path = l10n.js
+	url = https://github.com/eligrey/l10n.js.git
