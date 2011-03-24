@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Disk Alarm : Tell me before it's too late!</title>
+  <title>Disk Alarm: Tell me before it's too late!</title>
   <!--[if IE]>
           <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -10,13 +10,132 @@
 	body {
 		font-size: xx-large;
 		text-align: center;
+		background: #5E2009 url(img/bg.png);
+		margin: 0px auto;
+		font-family: verdana;
 	}
+	#body {
+		margin: 0px auto;
+		margin-top: 80px;
+	}
+	
+	header {
+		position: absolute;
+		top: 0px;
+		width: 840px;
+	}
+	
+	a {
+		text-decoration: none;
+		color: gray;
+	}
+	
+	#background {
+/*		background: url(img/body.png);
+*/		
+		background: #F8F2EE;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		
+		height: 1150px;
+		width: 840px;
+		margin: 0px auto;
+	}
+	
+	#background #shadow {
+		-moz-box-shadow: 10px 10px 5px #000;
+		-webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+		box-shadow: 10px 10px 5px #CCC;
+		
+		height: inherit;
+		width: inherit;
+		z-index:-2;
+	}
+	
+	#pomcast {
+		background: url(img/pomcast.png);
+		width: 224px;
+		height: 66px;
+		padding-top: -100px;
+		color: white;
+		text-align: center;
+		float: left;
+		font-size: 22px;
+	}
+	
+	#support {
+		background: url(img/support.png);
+		width: 106px;
+		height: 66px;
+		padding-top: -100px;
+		color: white;
+		font-size: 18px;
+		float: right;
+	}
+	
+	#lang {
+		font-size: 14px;
+		float: right;
+		color: gray;
+		display: inline;
+	}
+	
+	#macappstore {
+		background: url(img/macappstore200.png);
+		width: 200px;
+		height: 60px;
+		border: 0;
+	}
+	
+	#social {
+		position: absolute;
+		top: 100px;
+		left: 1083px;
+		height: 100px;
+		width: 50px;
+		z-index:-3;
+	}
+	
+	#social img {
+		margin-bottom: 0px;
+	}
+	
+	#pitch {
+		font-size: 18px;
+		color: gray;
+		font-family: Didot;
+		font-weight: bold;
+	}
+	
 	</style>
 	<script type="text/javascript" src="l10n.js/demo/json2.min.js"></script>
 	<script type="text/javascript" src="l10n.js/l10n.min.js"></script>
 	<script type="text/javascript" src="localizations.js"></script>
 </head>
 <body>
+	<div id="detext">DEU11</div>
+	<div id="body">
+		<div id="social">
+			<a href="http://twitter.com/diskalarm"><img src="img/twitter.png"></a>
+			<a href="http://facebook.com/diskalarm"><img src="img/facebook.png"></a>
+		</div>
+	<div id="background">
+		<div id="shadow1">
+			<header>
+				<div id="pomcast">Pomcast.biz</div>
+				<div id="support">support</div>
+				<div id="lang">
+					<span id="en"><a href="#!en">english</a></span>&nbsp;<span id="fr">français</span>&nbsp;<p id="de1">DEU</p>&nbsp;<span id="es">español</span>&nbsp;<span id="nl">nederlands</span>
+				</div>
+			</header>
+			<p id="tellme">Tell me before it's too late</p>
+			<a href="itunes.com"><img id="macappstore" border="0"></a>
+			<div id="pitch">Mac OS X tells you... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+		</div>
+	</div>
+	</div>
 	<h1 id="title">fallback (english) l10n.js demo</h1>
 	<p id="info">Your locale is unsupported.</p>
 	
@@ -37,9 +156,21 @@
 		var info = document.getElementById("info").firstChild;
 		var title = document.getElementById("title").firstChild;
 		
+		// Browse tags
+		var tags = document.getElementsByTagName("div");
+		for (index = 0; index < tags.length ; index++) {
+			var element = tags[index];
+			console.log(element);
+			console.log(element.id);
+			element.nodeValue = l("%" + element.id, element.nodeValue);
+		}
+		
 		info.nodeValue = l("%info", info.nodeValue);
 		document.title = title.nodeValue = l("%title", title.nodeValue);
 		document.documentElement.dir = l("%locale.dir", document.documentElement.dir);
+		
+		// var header = document.getElementByTags("header").firstChild;
+		// header.nodeValue = l("%header", header.nodeValue);
 		
 		document.documentElement.lang = String.locale || document.documentElement.lang;
 	</script>

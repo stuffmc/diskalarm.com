@@ -1,6 +1,6 @@
 String.toLocaleString({
 	"en": {
-		"%title": "English - l10n.js demo",
+		"%title": "Disk Alarm: Tell me before it's too late!",
 		"%info": "You are viewing an English localization of this page."
 	},
 	"es": "es.json",
@@ -10,7 +10,9 @@ String.toLocaleString({
 		"%info": "U ziet nu een Nederlandse lokalisatie van deze pagina."
 	},
 	"de": {
-		"%title": "Deutsch - l10n.js Demo",
+		"%title": "111--Disk Alarm: Sag bescheid, wenn es zu spät ist!",
+		"%tellme": "Sag bescheid, wenn es zu spät ist!",
+		"%detext": "---",
 		"%info": "Sie sehen hier die deutsche Lokalisierung dieser Seite."
 	},
 });
