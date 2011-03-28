@@ -1,0 +1,206 @@
+@charset utf-8;
+
+@font-face {
+    font-family: 'DanielBold';
+    src: url('fonts/danielbd-webfont.eot');
+    src: url('fonts/danielbd-webfont.eot?iefix') format('eot'),
+         url('fonts/danielbd-webfont.woff') format('woff'),
+         local("@"), url('fonts/danielbd-webfont.ttf') format('opentype'),
+         url('fonts/danielbd-webfont.svg#webfontxsRwIIFF') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('fonts/Chunkfive-webfont.eot');
+    src: url('fonts/Chunkfive-webfont.eot?iefix') format('eot'),
+         url('fonts/Chunkfive-webfont.woff') format('woff'),
+         url('fonts/Chunkfive-webfont.ttf') format('truetype'),
+         url('fonts/Chunkfive-webfont.svg#webfont90E2uSjN') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#title {
+	font: 60px/68px 'ChunkFiveRegular', Arial, sans-serif;
+	letter-spacing: 0;
+	text-align: center;
+	clear: both;
+}
+
+.w840 {
+	width: 840px;
+}
+
+body {
+	font-size: xx-large;
+	text-align: center;
+	background: #5E2009 url(img/WoodPattern02.jpg); /*img/bg.png);*/
+	margin: 0px auto;
+	font-family: 'Lucida Grande';
+}
+
+video {
+	width: 429px;
+	height: 145px;
+	position: absolute;
+	top: 206px;
+	left: 478px;
+	text-align: center;
+	z-index: 2;
+}
+#body {
+	margin: 0px auto;
+	margin-top: 70px;
+}
+
+header {
+	position: absolute;
+	top: 0px;
+	margin-left: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+#background {
+	background: #F8F2EE;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	height: 920px;
+	width: inherit;
+	margin: 0px auto;
+}
+
+#animframe {
+	position: absolute;
+	top: 153px;
+	height: 354px;
+	width: 100px;
+	margin-left: 80px;
+	
+/*	background: #999; /* for non-css3 browsers */
+/*	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6EEE9', endColorstr=rgba(0,0,0,0)); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#F6EEE9), to(rgba(0,0,0,0))); /* for webkit browsers */*/
+	background: -moz-linear-gradient(left,  #F6EEE9,  rgba(0,0,0,0)); /* for firefox 3.6+ */
+	text-align: center;
+	z-index: -1;
+}
+
+#background #shadow {
+	-webkit-border-radius: inherit;
+	-moz-border-radius: inherit;
+	border-radius: inherit;
+
+	-moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+	
+	height: inherit;
+	width: inherit;
+/*	z-index:-4;*/
+}
+
+#anim-image {
+	margin-bottom: 10px;
+	-webkit-border-radius: inherit;
+	-moz-border-radius: inherit;
+	border-radius: inherit;
+
+	-moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+	z-index: -1;
+}
+
+#anim {
+	position: absolute;
+	display: block;
+	margin-left: 224px;
+	top: 206px;
+/*	left: 200px;*/
+}
+
+#pomcast, #pomcast a {
+	background: url(img/pomcast.png);
+	width: 224px;
+	height: 66px;
+	padding-top: -100px;
+	color: white;
+	float: left;
+	font-size: 26px;
+}
+
+#support, #support a {
+	background: url(img/support.png);
+	width: 106px;
+	height: 56px;
+	color: white;
+	font-size: 18px;
+	float: right;
+	padding-top: 5px;
+/*	margin-right: -5px;*/
+}
+
+#lang {
+	font-size: 14px;
+	font-weight: bold;
+	float: right;
+	color: gray;
+	margin-top: 15px;
+}
+
+#lang a:hover {
+	color: white;
+}
+
+#social {
+	position: fixed;
+	top: 100px;
+	text-align: right;
+	height: 100px;
+	width: 897px;
+	z-index:-1;
+}
+
+#pitch1 {
+	margin-top: 200px;
+}
+
+#pitch1, #pitch2, #pitch3 {
+	font-size: 24px;
+	color: gray;
+	font-weight: bold;
+	font-family: Georgia;
+	margin: 20px 20px 0px 20px;
+}
+
+#tellme {
+	padding-top: 30px;
+	color: red;
+	font: 34px/43px 'DanielBold', Arial, sans-serif;
+	margin-bottom: 10px;
+}
+
+#play {
+	font-size: 12pt;
+	float: right;
+	margin-right: 85px;
+	margin-top: -15px;
+	text-align: right;
+}
+
+#footer {
+	font-size: 8pt;
+	color: gray;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	height: 30px;
+}

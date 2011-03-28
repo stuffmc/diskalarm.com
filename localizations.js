@@ -9,7 +9,7 @@ String.toLocaleString({
 		"es": "español  ",
 		"nl": "nederlands",
 		"pitch1": "Mac OS X tells you when your hard drive is full, but, generally, it's already too late to react.",
-		"pitch2": "You would like to be alerted soon enough so you can move or delete files, allowing you to have again enough free space for your Mac to run smoothly?",
+		"pitch2": "Would you like to be alerted early enough so you can move or delete files, allowing you to have enough free space for your Mac to run smoothly?",
 		"pitch3": "Disk Alarm will let you know in advance, and will spare you a lot of time!",
 	},
 	"es": {
@@ -27,7 +27,7 @@ String.toLocaleString({
 	},
 	"fr": {
 		"tellme": "Préviens moi avant qu'il soit trop tard !",
-		"play": "[rejouer]",
+		"play": "[rejouer encore]",
 		"en": "english  ",
 		"fr": "",
 		"de": "deutsch  ",
@@ -52,7 +52,7 @@ String.toLocaleString({
 	},
 	"de": {
 		"%title": "Disk Alarm: Informiere mich wenn es zu spät ist!",
-		"tellme": "Informiere mich bevor es zu spaet ist!",
+		"tellme": "Informiere mich bevor es zu spät ist!",
 		"play": "[noch abspielen]",
 		"en": "english  ",
 		"fr": "français  ",
