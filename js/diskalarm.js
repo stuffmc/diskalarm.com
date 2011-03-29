@@ -40,6 +40,7 @@ function loadLocale(locale) {
 loadLocale();
 
 anim = new AnimatedPNG('anim', $('#anim').attr('src'), 94, 25);
+anim.altText = anim.titleText = ' ';
 anim.setRepeat(false);
 anim.draw(false);
 

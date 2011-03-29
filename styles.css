@@ -42,7 +42,7 @@ body {
 	font-family: 'Lucida Grande';
 }
 
-video {
+/*video {
 	width: 429px;
 	height: 145px;
 	position: absolute;
@@ -51,6 +51,7 @@ video {
 	text-align: center;
 	z-index: 2;
 }
+*/
 #body {
 	margin: 0px auto;
 	margin-top: 70px;
@@ -78,6 +79,10 @@ a {
 	margin: 0px auto;
 }
 
+img {
+	font-size: 0px;
+}
+
 #animframe {
 	position: absolute;
 	top: 153px;
@@ -87,11 +92,11 @@ a {
 	
 /*	background: #999; /* for non-css3 browsers */
 /*	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6EEE9', endColorstr=rgba(0,0,0,0)); /* for IE */
-	background: -webkit-gradient(linear, left top, left bottom, from(#F6EEE9), to(rgba(0,0,0,0))); /* for webkit browsers */*/
-	background: -moz-linear-gradient(left,  #F6EEE9,  rgba(0,0,0,0)); /* for firefox 3.6+ */
-	text-align: center;
-	z-index: -1;
-}
+/*	background: -webkit-gradient(linear, left top, left bottom, from(#F6EEE9), to(rgba(0,0,0,0))); /* for webkit browsers */*/
+/*	background: -moz-linear-gradient(left,  #F6EEE9,  rgba(0,0,0,0)); /* for firefox 3.6+ */
+text-align: center;
+/*	z-index: -1;
+*/}
 
 #background #shadow {
 	-webkit-border-radius: inherit;
@@ -116,7 +121,7 @@ a {
 	-moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-	z-index: -1;
+/*	z-index: -1;*/
 }
 
 #anim {
@@ -127,25 +132,37 @@ a {
 /*	left: 200px;*/
 }
 
-#pomcast, #pomcast a {
-	background: url(img/pomcast.png);
+#pomcast {
+/*	position: fixed;
+	top: 0px;
+	left: 0px;
+*/	background: url(img/pomcast.png);
 	width: 224px;
 	height: 66px;
-	padding-top: -100px;
-	color: white;
 	float: left;
-	font-size: 26px;
+	z-index:1;
 }
 
-#support, #support a {
+#pomcast a {
+	font: 1px 'ChunkFiveRegular', Arial, sans-serif;
+	color: white;
+	font-size: 28px;
+	text-shadow: 0.1em 0.1em #333;
+	padding-right: 5px;
+	margin-top: 20px;
+}
+
+#support {
 	background: url(img/support.png);
 	width: 106px;
 	height: 56px;
+	float: right;
+}
+
+#support a {
+	padding-right: 5px;
 	color: white;
 	font-size: 18px;
-	float: right;
-	padding-top: 5px;
-/*	margin-right: -5px;*/
 }
 
 #lang {
@@ -192,7 +209,6 @@ a {
 	font-size: 12pt;
 	float: right;
 	margin-right: 85px;
-	margin-top: -15px;
 	text-align: right;
 }
 

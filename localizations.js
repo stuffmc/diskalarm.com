@@ -27,7 +27,7 @@ String.toLocaleString({
 	},
 	"fr": {
 		"tellme": "Préviens moi avant qu'il soit trop tard !",
-		"play": "[rejouer encore]",
+		"play": "[rejouer]",
 		"en": "english  ",
 		"fr": "",
 		"de": "deutsch  ",
