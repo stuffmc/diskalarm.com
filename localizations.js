@@ -11,6 +11,8 @@ String.toLocaleString({
 		"pitch1": "Mac OS X tells you when your hard drive is full, but, generally, it's already too late to react.",
 		"pitch2": "Would you like to be alerted early enough so you can move or delete files, allowing you to have enough free space for your Mac to run smoothly?",
 		"pitch3": "Disk Alarm will let you know in advance, and will spare you a lot of time!",
+		"begin": "010",
+		"end": 105
 	},
 	"es": {
 		"%title": "Disk Alarm: Avísame antes de que sea demasiado tarde",
@@ -23,7 +25,9 @@ String.toLocaleString({
 		"nl": "nederlands",
 		"pitch1": "Mac OS X le dice cuándo tiene lleno su disco duro, pero habitualmente es demasiado tarde para reaccionar a tiempo.",
 		"pitch2": "¿Le gustaría que le avisase con la suficiente antelación para poder mover o borrar archivos, y tener siempre el espacio libre suficiente para que su Mac funcione sin problemas?",
-		"pitch3": "Disk Alarm le avisará con la suficiente antelación y ahorrará mucho tiempo y problemas."
+		"pitch3": "Disk Alarm le avisará con la suficiente antelación y ahorrará mucho tiempo y problemas.",
+		"begin": "01",
+		"end": 95
 	},
 	"fr": {
 		"tellme": "Préviens moi avant qu'il soit trop tard !",
@@ -35,7 +39,9 @@ String.toLocaleString({
 		"nl": "nederlands",
 		"pitch1": "Mac OS X vous prévient quand votre disque dur est rempli, mais malheureusement, en général, il est déjà trop tard pour réagir.",
 		"pitch2": "Vous aimeriez être prévenu suffisamment à l'avance pour déplacer ou effacer des fichiers, vous permettant ainsi de retrouver un espace disque libre nécessaire au bon fonctionnement de votre Mac ?",
-		"pitch3": "Disk Alarm vous préviendra suffisamment à l'avance, et vous épargnera beaucoup de temps perdu !"
+		"pitch3": "Disk Alarm vous préviendra suffisamment à l'avance, et vous épargnera beaucoup de temps perdu !",
+		"begin": "001",
+		"end": 114
 	},
 	"nl": {
 		"%title": "Disk Alarm: Vertel het mij voordat het te laat is",
@@ -48,7 +54,9 @@ String.toLocaleString({
 		"nl": "",
 		"pitch1": "Max OS X laat je weten wanneer je harde schijf vol is, maar vaak is het dan al te laat om adequaat te kunnen reageren.",
 		"pitch2": "Zou je liever op tijd een waarschuwing krijgen om bestanden te verplaatsen of te verwijderen, zodat je weer genoeg schijfruimte hebt en je Mac soepel kan blijven draaien?",
-		"pitch3": "Disk Alarm informeert je van te voren, en bespaart je zeeën van tijd."
+		"pitch3": "Disk Alarm informeert je van te voren, en bespaart je zeeën van tijd.",
+		"begin": "01",
+		"end": 86
 	},
 	"de": {
 		"%title": "Disk Alarm: Informiere mich wenn es zu spät ist!",
@@ -61,6 +69,8 @@ String.toLocaleString({
 		"nl": "nederlands",
 		"pitch1": "Mac OS X informiert dich, wenn deine Festplatte voll ist, aber meistens ist es dann bereits zu spät um zu reagieren.",
 		"pitch2": "Du würdest gerne früh genug benachrichtigt werden, so dass du deine Dateien verschieben oder löschen kannst, um wieder genug Platz auf der Festplatte zu haben, damit dein Mac reibungslos läuft?",
-		"pitch3": "Disk Alarm wird dich im Voraus informieren, und du sparst eine Menge Zeit!"
+		"pitch3": "Disk Alarm wird dich im Voraus informieren, und du sparst eine Menge Zeit!",
+		"begin": "01",
+		"end": 89
 	},
 });

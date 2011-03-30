@@ -20,7 +20,7 @@ animatedPNGs=new Array();function AnimatedPNG(imageName,firstImage,imageCount,de
 {this.animName=imageName;this.images=new Array();this.delays=new Array();this.padCount=0;this.firstImageNumber=0;this.lastImageNumber=0;this.currentImage=0;this.repeat=true;this.animationRunning=false;this.animationDrawn=false;this.draw=function(delayStart)
 {var html=new Array();html[html.length]='<img id="'+this.animName+'" src=""';if(this.altText)
 html[html.length]=' alt="'+this.altText+'"';if(this.titleText)
-html[html.length]=' title="'+this.titleText+'"';html[html.length]='/>';document.write(html.join(''));document.getElementById(this.animName).src=this.images[this.firstImageNumber].src;if(!delayStart)
+html[html.length]=' title="'+this.titleText+'"';html[html.length]='/>';/*document.write(html.join(''));*/document.getElementById(this.animName).src=this.images[this.firstImageNumber].src;if(!delayStart)
 {setTimeout('animatedPNGs[\''+this.animName+'\'].drawFrame()',this.delays[this.firstImageNumber]);this.animationRunning=true;}
 this.drawn=true;}
 this.setFrameDelay=function(frame,delay)

@@ -79,7 +79,7 @@ function AnimatedPNG(imageName, firstImage, imageCount, delay)
 		
 		html[html.length] = '/>';
 
-		document.write(html.join(''));
+		// document.write(html.join(''));
 		document.getElementById(this.animName).src = this.images[this.firstImageNumber].src;
 		
         if (!delayStart)
