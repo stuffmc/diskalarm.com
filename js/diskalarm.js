@@ -1,9 +1,3 @@
-// TODO:
-// - Export NSAlert.mov in images (QuickTime 7)
-// - Play when clicked on button
-// - make screenshots/screencasts for all languages
-// - when website updated, write to the Mac BU (and #nsconf twitter)
-
 var l = function (string, fallback) {
 	var localized = string.toLocaleString();
 	if (localized !== string) {
@@ -38,7 +32,7 @@ function loadLocale(locale) {
 
 	$('#anim-image').attr('src', "img/"+String.locale+"/window-"+String.locale+".png");
 	$('#anim').attr('src', "img/"+String.locale+"/"+String.locale+ l("begin") +".png");
-	anim.firstImage = $('#anim').attr('src');
+	// anim.firstImage = $('#anim').attr('src');
 	// anim.draw(false);
 	
 	//    imageName - The name of this animation
@@ -47,7 +41,7 @@ function loadLocale(locale) {
 	//    delay - The default delay between frames
 	// function AnimatedPNG(imageName, firstImage, imageCount, delay)
 	
-	console.log(l("end"));
+	// console.log(l("end"));
 	anim = new AnimatedPNG('anim', $('#anim').attr('src'), l("end"), 25);
 	anim.altText = anim.titleText = ' ';
 	anim.setRepeat(false);

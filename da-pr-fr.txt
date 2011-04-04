@@ -1,0 +1,33 @@
+POUR DIFFUSION IMMÉDIATE
+
+Kerpen, Allemagne - 31 mars 2011 - Pomcast.biz est très heureux de présenter sa première application Mac OS X après plusieurs années de consultance iOS.
+
+Mac OS X vous prévient quand votre disque dur est rempli, mais malheureusement, en général, il est déjà trop tard pour réagir.
+
+Vous aimeriez être prévenu suffisamment à l'avance pour déplacer ou effacer des fichiers, vous permettant ainsi de retrouver un espace disque libre nécessaire au bon fonctionnement de votre Mac ?
+
+Disk Alarm vous préviendra suffisamment à l'avance, et vous épargnera beaucoup de temps perdu !
+
+
+Fonctionalités:
+* Préviens lorsque vous avez atteins un certain montant de disque dur libre.
+* Option pour jouer un son, très utile lorsque vous n'êtes pas en face de voter ordinateur.
+* Fonctionnne en tant qu'agent. Fermez la fenêtre de réglage et Disk Alarm vous préviendra également.
+* Peux également rester dans voter barre de menu permeant un accès rapide ainsi qu'une visualisation de l'espace disque restant.
+* Vérifiez manuellement l'espace disque restant si vous ne voulez pas le faire de manière automatique.
+* Ajouté (option) automatiquement à vos éléments de démarrage afin que l'application soit démarrée au lancement de l'ordinateur.
+* A venir dans la version 1.0.1: Possibilité d'afficher l'espace à vérifier en pourcentage au lieu de MB/GB.
+
+Configuration minimale:
+* Mac OS X Version 10.6.6 ou supérieur
+* Mac Intel
+
+Nous serions heureux de vous envoyer un Coupon afin que vous puissiez écrire un article sur l'application. De plus, vous pouvez utiliser http://diskalarm.com/img/IconDA.png afin d'illustrer votre article. Nous serions également heureux de répondre à toute requête.
+
+Manuel CARRASCO MOLINA
+Developer
+http://diskalarm.com
+http://itunes.com/mac/diskalarm
+Screenshots: http://itunes.apple.com/us/app/disk-alarm/id424472944?mt=12
+
+Après avoir aidé une série de clients sur des projets iOS depuis le lancement du SDK en 2008, Pomcast.biz lance finalement sa première application Mac appellée "Disk Alarm". Cette application - devant être le début d'une série d'applications Mac & iOS - surveillera votre disque dur et vous avertira dés que celui ci aura atteint un certain espace disque libre définis par vous.

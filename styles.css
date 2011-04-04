@@ -160,6 +160,11 @@ text-align: center;
 }
 
 #support a {
+	font: Arial, sans-serif;
+	width: 80px;
+}
+
+#support a {
 	padding-right: 5px;
 	color: white;
 	font-size: 18px;
@@ -210,9 +215,12 @@ text-align: center;
 	float: right;
 	margin-right: 85px;
 	text-align: right;
+	font: Arial, sans-serif;
 }
 
 #footer {
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
 	font-size: 8pt;
 	color: gray;
 	text-align: center;

@@ -11,7 +11,7 @@ String.toLocaleString({
 		"pitch1": "Mac OS X tells you when your hard drive is full, but, generally, it's already too late to react.",
 		"pitch2": "Would you like to be alerted early enough so you can move or delete files, allowing you to have enough free space for your Mac to run smoothly?",
 		"pitch3": "Disk Alarm will let you know in advance, and will spare you a lot of time!",
-		"begin": "010",
+		"begin": "001",
 		"end": 105
 	},
 	"es": {
