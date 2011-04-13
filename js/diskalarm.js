@@ -19,6 +19,7 @@ function loadLocale(locale) {
 	}
 	// console.log(String.locale)
 	document.title = l('%title', document.title);
+	// $(".twitter-share-button").first().attr("data-text", document.title);
 	// Browse tags
 	$('div,p,span,a').each( function() {
 	  // console.log( $(this).attr('id') + ' ' + $(this) + ' '  );

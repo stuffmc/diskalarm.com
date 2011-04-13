@@ -186,9 +186,15 @@ text-align: center;
 	position: fixed;
 	top: 100px;
 	text-align: right;
-	height: 100px;
-	width: 897px;
+	height: 250px;
+	width: 97px;
+	margin-left: 828px;
 	z-index:-1;
+	text-align: left;
+}
+
+#like {
+	margin-left: 20px;
 }
 
 #pitch1 {
