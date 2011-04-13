@@ -15,7 +15,7 @@ Features:
 - Optional bleibt Disk Alarm in Ihrer Menüleiste um schnellen Zugriff darauf zu haben und den freien Platz anzuzeigen.
 - Wenn Sie den freien Platz nicht automatisch angezeigt haben wollen, können Sie dies auch manuell überprüfen
 - Optional können sie Disk Alarm zu Ihren Login Items hinzufügen, so dass er immer läuft, sobald der Computer hochfährt.
-- In 1.0.1 wird es bald die Möglichkeit geben, den überprüften Platz in Prozenten anstatt in MB/ GB zu sehen
+- Es gibt die Möglichkeit, den überprüften Platz in Prozenten anstatt in MB/ GB zu sehen
 
 Minimale Anforderungen:
 - Mac OS X Version 10.6.6 oder höher

@@ -8,7 +8,8 @@ var l = function (string, fallback) {
 };
 
 function loadLocale(locale) {
-	String.locale = 'en';
+	String.locale = (navigator.language) ? navigator.language : navigator.userLanguage; 
+	String.locale = String.locale.substring(0,2);
 	if (locale) {
 		 String.locale = locale;
 		 location.hash = locale;

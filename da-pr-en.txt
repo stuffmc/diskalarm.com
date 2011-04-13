@@ -16,7 +16,7 @@ Features:
 * Optionally stays in your menu bar for fast access + mentioning the free space.
 * Check manually the space if you don't want to have it automatically.
 * Added (optionally) to your login items so it'll always run when the computer starts
-* Coming soon in 1.0.1: Ability to see set the "checked space" in percents instead of MB/GB.
+* Ability to see set the "checked space" in percents instead of MB/GB.
 
 Example Minimum Requirements:
 * Mac OS X Version 10.6.6 or higher
