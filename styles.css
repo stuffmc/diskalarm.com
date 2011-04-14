@@ -124,7 +124,7 @@ text-align: center;
 /*	z-index: -1;*/
 }
 
-#anim {
+#anim, #anim2 {
 	position: absolute;
 	display: block;
 	margin-left: 207px;
@@ -206,6 +206,18 @@ text-align: center;
 	margin-left: 490px;
 	display:block;
 	width:140px;
+}
+
+#alert a
+{
+	display: block;
+/*	visibility: hidden;*/
+	position: fixed;
+	top: 318px;
+	float: right;
+	text-align: right;
+	margin-left: 457px;
+	width:79px;
 }
 
 #pitch1 {

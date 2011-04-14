@@ -8,11 +8,12 @@ var l = function (string, fallback) {
 };
 
 function loadLocale(locale) {
-	String.locale = (navigator.language) ? navigator.language : navigator.userLanguage; 
-	String.locale = String.locale.substring(0,2);
 	if (locale) {
 		 String.locale = locale;
 		 location.hash = locale;
+	} else {
+		String.locale = (navigator.language) ? navigator.language : navigator.userLanguage; 
+		String.locale = String.locale.substring(0,2);
 	}
 	if (location.hash) {
 		String.locale = location.hash.substr(2);	
@@ -44,18 +45,37 @@ function loadLocale(locale) {
 	// function AnimatedPNG(imageName, firstImage, imageCount, delay)
 	
 	// console.log(l("end"));
-	anim = new AnimatedPNG('anim', $('#anim').attr('src'), l("end"), 25);
+	anim = new AnimatedPNG('anim', $('#anim').attr('src'), l("end"), 50);
 	anim.altText = anim.titleText = ' ';
 	anim.setRepeat(false);
 	anim.draw(false);
 	
+	
+	// $("#alert:first").css("display", "block");
+	// $("#alert:first").fadeIn();
 }
 
 
 loadLocale();
 
 function play() {
+	$("#anim2").hide();
+	$("#anim").show();
 	anim.setRepeat(true);
 	anim.startAnimation();
 	anim.setRepeat(false);
+}
+
+function dismissAlert() {
+	$("#anim").hide();
+	$("#anim2").show();
+	// console.log("called");
+	$('#anim2').attr('src', "img/"+String.locale+"/"+String.locale+"f1.png");
+	anim2 = new AnimatedPNG('anim2', $('#anim2').attr('src'), 5, 50);
+	anim2.altText = anim2.titleText = ' ';
+	// anim2.setRepeat(true);
+	anim2.setRepeat(false);
+	anim2.draw(false);
+	// anim2.startAnimation();
+	// anim2.setRepeat(false);
 }

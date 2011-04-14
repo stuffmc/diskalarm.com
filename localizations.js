@@ -12,7 +12,7 @@ String.toLocaleString({
 		"pitch2": "Would you like to be alerted early enough so you can move or delete files, allowing you to have enough free space for your Mac to run smoothly?",
 		"pitch3": "Disk Alarm will let you know in advance, and will spare you a lot of time!",
 		"begin": "001",
-		"end": 105,
+		"end": 6,
 		"releasenotes" : "1.0.1: •You can now click the free space displayed in MB GB to toggle it to a percentage.\n• Fixed a bug that showed multiple occurrences of Disk Alarm in the menu bar.\n1.0.2: • Now also displaying TB (instead of 1000 GB)\n• Removed annoying logs\n• Using less space in your menu bar.\n• Now using correct decimal separator for your locale."
 	},
 	"es": {
@@ -28,7 +28,7 @@ String.toLocaleString({
 		"pitch2": "¿Le gustaría que le avisase con la suficiente antelación para poder mover o borrar archivos, y tener siempre el espacio libre suficiente para que su Mac funcione sin problemas?",
 		"pitch3": "Disk Alarm le avisará con la suficiente antelación y ahorrará mucho tiempo y problemas.",
 		"begin": "01",
-		"end": 95,
+		"end": 7,
 		"releasenotes" : "1.0.1: •You can now click the free space displayed in MB GB to toggle it to a percentage.\n• Fixed a bug that showed multiple occurrences of Disk Alarm in the menu bar.\n1.0.2: • El espacio se muestra ahora en TB (en lugar de 1000 GB), si es necesario.\n\n• Se han eliminado mensajes de log innecesarios.\n• Se ha reducido el espacio ocupado por el icono en la barra de menú.\n• Ahora se utiliza el separador decimal adecuado correspondiente a tus preferencias de localización."
 	},
 	"fr": {
@@ -75,7 +75,7 @@ String.toLocaleString({
 		"pitch2": "Du würdest gerne früh genug benachrichtigt werden, so dass du deine Dateien verschieben oder löschen kannst, um wieder genug Platz auf der Festplatte zu haben, damit dein Mac reibungslos läuft?",
 		"pitch3": "Disk Alarm wird dich im Voraus informieren, und du sparst eine Menge Zeit!",
 		"begin": "01",
-		"end": 89,
+		"end": 7,
 		"releasenotes" : "1.0.1: •You can now click the free space displayed in MB GB to toggle it to a percentage.\n• Fixed a bug that showed multiple occurrences of Disk Alarm in the menu bar.\n1.0.2: • Angabe des freien Platz benutzt jetzt auch TB (statt 1000 GB)\n• Vermeidung von Ausgaben im Konsolen-Log\n• Korrektur der deutschen Lokalisierung und Zahlenformatierung\n• Verringerung des benötigten Platzes in der Menüleiste"
 	
 		
