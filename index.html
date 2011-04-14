@@ -13,7 +13,7 @@
 	<script type="text/javascript" src="l10n.js/demo/json2.min.js"></script>
 	<script type="text/javascript" src="l10n.js/l10n.min.js"></script>
 	<script type="text/javascript" src="localizations.js" charset="utf-8"></script>
-  <script type="text/javascript" src="js/animatedpng.js"></script>
+  <script type="text/javascript" src="js/animatedpng_large.js"></script>
 	<meta property="og:title" content="Disk Alarm: Tell me before it&#039;s too late!" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://diskalarm.com" />
@@ -53,11 +53,12 @@
 			</video> -->
 			<div id="tellme">Tell me before it's too late</div>
 			<img id="anim" />
-			<div id="animframe"></div><img id="anim-image" src="img/en/window-en.png" />
+			<div id="animframe"><div id="button"><a class="play" href="#" onclick="play()">*&nbsp;&nbsp;</a></div>
+			</div><img id="anim-image" src="img/en/window-en.png" />
 			
 			
 			
-			<div><a id="play" href="#" onclick="play()">[play again]</a></div>
+			<div><a class="play" id="play">*click on Check Now</a></div>
 			<div id="title">Disk Alarm</div>
 			<a href="http://itunes.com/mac/diskalarm"><img id="macappstore" src="img/macappstore-en.png" border="0"></a>
 			<div id="pitch1">Mac OS X tells you when your hard drive is full, but, generally, it's already too late to react.</div>

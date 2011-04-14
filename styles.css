@@ -197,6 +197,17 @@ text-align: center;
 	margin-left: 20px;
 }
 
+#button a
+{
+	position: fixed;
+	top: 429px;
+	float: right;
+	text-align: right;
+	margin-left: 490px;
+	display:block;
+	width:140px;
+}
+
 #pitch1 {
 	margin-top: 200px;
 }
@@ -216,8 +227,8 @@ text-align: center;
 	margin-bottom: 10px;
 }
 
-#play {
-	font-size: 12pt;
+.play {
+	font-size: 11pt;
 	float: right;
 	margin-right: 85px;
 	text-align: right;

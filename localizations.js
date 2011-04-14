@@ -2,7 +2,7 @@ String.toLocaleString({
 	"en": {
 		"%title": "Disk Alarm: Tell me before it's too late!",
 		"tellme": "Tell me before it's too late!",
-		"play": "[play again]",
+		"play": "* Click me :)",
 		"en": "",
 		"fr": "français  ",
 		"de": "deutsch  ",
@@ -18,7 +18,7 @@ String.toLocaleString({
 	"es": {
 		"%title": "Disk Alarm: Avísame antes de que sea demasiado tarde",
 		"tellme": "Avísame antes de que sea demasiado tarde",
-		"play": "[jugar otra vez]",
+		"play": "* Haz Click :)",
 		"en": "english  ",
 		"fr": "français  ",
 		"de": "deutsch  ",
@@ -33,7 +33,7 @@ String.toLocaleString({
 	},
 	"fr": {
 		"tellme": "Préviens moi avant qu'il soit trop tard !",
-		"play": "[rejouer]",
+		"play": "* Cliquez moi :)",
 		"en": "english  ",
 		"fr": "",
 		"de": "deutsch  ",
@@ -49,7 +49,7 @@ String.toLocaleString({
 	"nl": {
 		"%title": "Disk Alarm: Vertel het mij voordat het te laat is",
 		"tellme": "Vertel het mij voordat het te laat is",
-		"play": "[nog afspelen]",
+		"play": "* Klick mij :)",
 		"en": "english  ",
 		"fr": "français  ",
 		"de": "deutsch  ",
@@ -65,7 +65,7 @@ String.toLocaleString({
 	"de": {
 		"%title": "Disk Alarm: Informiere mich wenn es zu spät ist!",
 		"tellme": "Informiere mich bevor es zu spät ist!",
-		"play": "[noch abspielen]",
+		"play": "* Klick mich :)",
 		"en": "english  ",
 		"fr": "français  ",
 		"de": "",
