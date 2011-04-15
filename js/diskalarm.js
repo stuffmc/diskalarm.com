@@ -49,6 +49,7 @@ function loadLocale(locale) {
 	anim.altText = anim.titleText = ' ';
 	anim.setRepeat(false);
 	anim.draw(false);
+	$("#button").hide();
 	
 	
 	// $("#alert:first").css("display", "block");
@@ -59,16 +60,20 @@ function loadLocale(locale) {
 loadLocale();
 
 function play() {
+	$("#button").hide();
 	$("#anim2").hide();
 	$("#anim").show();
+	$("#alert").show();
 	anim.setRepeat(true);
 	anim.startAnimation();
 	anim.setRepeat(false);
 }
 
 function dismissAlert() {
+	$("#alert").hide();
 	$("#anim").hide();
 	$("#anim2").show();
+	$("#button").show();
 	// console.log("called");
 	$('#anim2').attr('src', "img/"+String.locale+"/"+String.locale+"f1.png");
 	anim2 = new AnimatedPNG('anim2', $('#anim2').attr('src'), 5, 50);

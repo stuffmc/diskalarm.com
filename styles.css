@@ -206,18 +206,19 @@ text-align: center;
 	margin-left: 490px;
 	display:block;
 	width:140px;
+	height: 25px;
 }
 
 #alert a
 {
 	display: block;
-/*	visibility: hidden;*/
 	position: fixed;
 	top: 318px;
 	float: right;
 	text-align: right;
 	margin-left: 457px;
 	width:79px;
+	height: 25px;
 }
 
 #pitch1 {
@@ -240,9 +241,10 @@ text-align: center;
 }
 
 .play {
-	font-size: 11pt;
+	font-size: 10pt;
 	float: right;
-	margin-right: 85px;
+	margin-right: 75px;
+	margin-top: -3px;
 	text-align: right;
 	font: Arial, sans-serif;
 }
