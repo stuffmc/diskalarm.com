@@ -40,6 +40,7 @@ body {
 	background: #5E2009 url(img/WoodPattern02.jpg); /*img/bg.png);*/
 	margin: 0px auto;
 	font-family: 'Lucida Grande';
+	width: 940px;
 }
 
 /*video {
@@ -199,11 +200,13 @@ text-align: center;
 
 #button a
 {
-	position: fixed;
-	top: 429px;
+/*	background: red;*/
+	position: relative;
+	top: 275px;
+	left: 610px;
 	float: right;
 	text-align: right;
-	margin-left: 490px;
+/*	margin-left: 190px;*/
 	display:block;
 	width:140px;
 	height: 25px;
@@ -211,12 +214,14 @@ text-align: center;
 
 #alert a
 {
+/*	background: red;*/
 	display: block;
-	position: fixed;
-	top: 318px;
+	position: relative;
+	top: 162px;
+	left: 511px;
 	float: right;
 	text-align: right;
-	margin-left: 457px;
+/*	margin-left: 157px;*/
 	width:79px;
 	height: 25px;
 }
