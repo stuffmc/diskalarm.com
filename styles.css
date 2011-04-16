@@ -195,35 +195,35 @@ text-align: center;
 }
 
 #like {
-	margin-left: 20px;
+	margin-left: 15px;
 }
 
-#button a
+
+#button a, #alert a
 {
 /*	background: red;*/
 	position: relative;
-	top: 275px;
-	left: 610px;
 	float: right;
 	text-align: right;
-/*	margin-left: 190px;*/
 	display:block;
-	width:140px;
-	height: 25px;
+	height: 40px;
+
+/*	border-radius: 40px;
+	border: 5px solid #F00;
+*/}
+
+#button a
+{
+	top: 270px;
+	left: 620px;
+	width:150px;
 }
 
 #alert a
 {
-/*	background: red;*/
-	display: block;
-	position: relative;
-	top: 162px;
-	left: 511px;
-	float: right;
-	text-align: right;
-/*	margin-left: 157px;*/
-	width:79px;
-	height: 25px;
+	top: 155px;
+	left: 540px;
+	width:110px;
 }
 
 #pitch1 {
