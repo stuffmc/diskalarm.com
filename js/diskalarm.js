@@ -49,7 +49,8 @@ function loadLocale(locale) {
 	anim.altText = anim.titleText = ' ';
 	anim.setRepeat(false);
 	anim.draw(false);
-	$("#button").hide();
+	// $("#button").hide();
+	play();
 	
 	
 	// $("#alert:first").css("display", "block");
