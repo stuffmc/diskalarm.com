@@ -44,7 +44,7 @@ String.toLocaleString({
 		"pitch3": "Disk Alarm vous préviendra suffisamment à l'avance, et vous épargnera beaucoup de temps perdu !",
 		"begin": "001",
 		"end": 6,
-		"bug11": "Attention : Dans certaines conditions, il y a une erreur dans la version 1.1. Nous avons soumis la version 1.1.1 fixant le bug à Apple mais en attendant le moyen simple de régler le problème est de soit ne pas avoir Disk Alarm dans les programmes d'ouverture ou de cocher sur la case Masquer.",
+		"bug11": "Attention : Dans certaines conditions, il y a une erreur dans la version 1.1. Nous avons soumis la version 1.1.1 fixant le bug à Apple. En attendant le moyen simple de régler le problème est de soit ne pas avoir Disk Alarm dans les programmes d'ouverture ou de cocher sur la case \"Masquer\".",
 		"releasenotes" : "1.0.1: •You can now click the free space displayed in MB GB to toggle it to a percentage.\n• Fixed a bug that showed multiple occurrences of Disk Alarm in the menu bar.\n1.0.2: • Affiche maintenant également TB (au lieu de 1000 GB)\n• Suppression d'un message répétitif dans la console\n• Utilise moins d'espace dans votre barre de menu.\n• Utilise le séparateur de décimal correct pour votre localisation."
 	},
 	"nl": {
@@ -61,7 +61,7 @@ String.toLocaleString({
 		"pitch3": "Disk Alarm informeert je van te voren, en bespaart je zeeën van tijd.",
 		"begin": "01",
 		"end": 7,
-		"bug11": "Opgelet: in sommige gevallen start versie 1.1 bij het opstarten. Versie 1.1.1 lost dit probleem op en is momenteel in review. Ondertussen kun je versie 1.1 gebruiken door Disk Alarm niet in je login items te steken of door de "Verbergen" checkbox aan te vinken.",
+		"bug11": "Opgelet: in sommige gevallen start versie 1.1 bij het opstarten. Versie 1.1.1 lost dit probleem op en is momenteel bij Apple in review. Ondertussen kun je versie 1.1 gebruiken door Disk Alarm niet in je login items te steken of door de \"Verberg\" checkbox aan te vinken.",
 		"releasenotes" : "1.0.1:\n• Je kan nu op de 'vrije ruimte' klikken om de hoeveelheid weer te geven in percent i.p.v. MB/GB.\n• Correctie van een bug waardoor het Disk Alarm Menu Bar Item meer dan 1 keer verscheen.\n\n1.0.2:\n• Toont nu ook TB (i.p.v. 1000 GB)\n• Eliminatie van enkele repetitieve berichten in de Console Logs\n• Neemt minder plaats in beslag in de menu bar\n• Gebruikt de correcte decimaalscheider separator voor je locale"
 	},
 	"de": {
@@ -78,6 +78,7 @@ String.toLocaleString({
 		"pitch3": "Disk Alarm wird dich im Voraus informieren, und du sparst eine Menge Zeit!",
 		"begin": "01",
 		"end": 7,
+		"bug11": "Achtung: Unter bestimmten Umständen kann Disk Alarm nach Installation des 1.1 Update beim Start abstürzen. Version 1.1.1 behebt das Problem und ist bereits an Apple zur Freigabe eingereicht. Bis dahin können Sie Disk Alarm entweder nicht in die Anmeldeobjekte aufzunehmen oder dort die \"Ausblenden\"-Option zu aktivieren.",
 		"releasenotes" : "1.0.1: •You can now click the free space displayed in MB GB to toggle it to a percentage.\n• Fixed a bug that showed multiple occurrences of Disk Alarm in the menu bar.\n1.0.2: • Angabe des freien Platz benutzt jetzt auch TB (statt 1000 GB)\n• Vermeidung von Ausgaben im Konsolen-Log\n• Korrektur der deutschen Lokalisierung und Zahlenformatierung\n• Verringerung des benötigten Platzes in der Menüleiste"
 	},
 	"it": {
