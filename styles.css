@@ -99,7 +99,7 @@ text-align: center;
 /*	z-index: -1;
 */}
 
-#background #shadow {
+.rounded {
 	-webkit-border-radius: inherit;
 	-moz-border-radius: inherit;
 	border-radius: inherit;
@@ -107,6 +107,9 @@ text-align: center;
 	-moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+#background #shadow {
 	
 	height: inherit;
 	width: inherit;
@@ -177,6 +180,7 @@ text-align: center;
 	float: right;
 	color: gray;
 	margin-top: 15px;
+	width: 330px;
 }
 
 #lang a:hover {
@@ -267,4 +271,17 @@ text-align: center;
 
 #ppc {
 	color: green;
+}
+
+#bug11 {
+	position: absolute;
+	top: 155px;
+	background: red;
+	color: white;
+	z-index: 999;
+	text-align: center;
+	width: 660px;
+	margin-left: 80px;
+	font-size: 18px;
+	padding: 10px 10px 10px 10px;
 }

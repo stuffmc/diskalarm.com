@@ -44,10 +44,11 @@ String.toLocaleString({
 		"pitch3": "Disk Alarm vous préviendra suffisamment à l'avance, et vous épargnera beaucoup de temps perdu !",
 		"begin": "001",
 		"end": 6,
+		"bug11": "Attention : Dans certaines conditions, il y a une erreur dans la version 1.1. Nous avons soumis la version 1.1.1 fixant le bug à Apple mais en attendant le moyen simple de régler le problème est de soit ne pas avoir Disk Alarm dans les programmes d'ouverture ou de cocher sur la case Masquer.",
 		"releasenotes" : "1.0.1: •You can now click the free space displayed in MB GB to toggle it to a percentage.\n• Fixed a bug that showed multiple occurrences of Disk Alarm in the menu bar.\n1.0.2: • Affiche maintenant également TB (au lieu de 1000 GB)\n• Suppression d'un message répétitif dans la console\n• Utilise moins d'espace dans votre barre de menu.\n• Utilise le séparateur de décimal correct pour votre localisation."
 	},
 	"nl": {
-		"%title": "Disk Alarm: Vertel het mij voordat het te laat is",
+		"%title": "Disk Alarm: Vertel het mij voordat het te laat is!",
 		"tellme": "Vertel het mij voordat het te laat is",
 		"play": "Klick \"Controleer\", \"OK\"",
 		"en": "english  ",
@@ -77,7 +78,21 @@ String.toLocaleString({
 		"begin": "01",
 		"end": 7,
 		"releasenotes" : "1.0.1: •You can now click the free space displayed in MB GB to toggle it to a percentage.\n• Fixed a bug that showed multiple occurrences of Disk Alarm in the menu bar.\n1.0.2: • Angabe des freien Platz benutzt jetzt auch TB (statt 1000 GB)\n• Vermeidung von Ausgaben im Konsolen-Log\n• Korrektur der deutschen Lokalisierung und Zahlenformatierung\n• Verringerung des benötigten Platzes in der Menüleiste"
-	
-		
-	}
+	},
+	"it": {
+		"%title": "Disk Alarm: Avvertimi prima che sia troppo tardi!",
+    "tellme": "Avvertimi prima che sia troppo tardi!",
+    "play": "Click \"Check\", \"OK\", ...",
+    "en": "",
+    "fr": "franÃ§ais  ",
+    "de": "deutsch  ",
+    "es": "espaÃ±ol  ",
+    "nl": "nederlands",
+    "pitch1": "Mac OS X ti avverte quando il tuo hard drive è quasi completo ma di solito è troppo tardi per poter reagire.",
+    "pitch2": "Ti piacerebbe essere avvertito in tempo per	avere modo si spostare o cancellare file ed avere sempre un Mac scattante e reattivo??",
+    "pitch3": "Disk Alarm ti avvertirà in anticipo e ti risparmierà molto tempo prezioso",
+		"begin": "001",
+		"end": 6,
+		"releasenotes" : "1.0.1: •You can now click the free space displayed in MB GB to toggle it to a percentage.\n• Fixed a bug that showed multiple occurrences of Disk Alarm in the menu bar.\n1.0.2: • Now also displaying TB (instead of 1000 GB)\n• Removed annoying logs\n• Using less space in your menu bar.\n• Now using correct decimal separator for your locale."
+		}
 });
