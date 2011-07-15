@@ -26,7 +26,7 @@ function loadLocale(locale) {
 		$(this).text(l($(this).attr('id')));
 	});
 	
-	$('#macappstore').first().attr('src', 'img/macappstore-'+String.locale+'.png');
+	$('#macappstore').first().attr('src', 'img/'+String.locale+'/macappstore-'+String.locale+'.png');
 	
 	document.documentElement.dir = l("%locale.dir", document.documentElement.dir);
 	document.documentElement.lang = String.locale || document.documentElement.lang;

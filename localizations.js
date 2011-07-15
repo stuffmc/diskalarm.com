@@ -61,6 +61,7 @@ String.toLocaleString({
 		"pitch3": "Disk Alarm informeert je van te voren, en bespaart je zeeën van tijd.",
 		"begin": "01",
 		"end": 7,
+		"bug11": "Opgelet: in sommige gevallen start versie 1.1 bij het opstarten. Versie 1.1.1 lost dit probleem op en is momenteel in review. Ondertussen kun je versie 1.1 gebruiken door Disk Alarm niet in je login items te steken of door de "Verbergen" checkbox aan te vinken.",
 		"releasenotes" : "1.0.1:\n• Je kan nu op de 'vrije ruimte' klikken om de hoeveelheid weer te geven in percent i.p.v. MB/GB.\n• Correctie van een bug waardoor het Disk Alarm Menu Bar Item meer dan 1 keer verscheen.\n\n1.0.2:\n• Toont nu ook TB (i.p.v. 1000 GB)\n• Eliminatie van enkele repetitieve berichten in de Console Logs\n• Neemt minder plaats in beslag in de menu bar\n• Gebruikt de correcte decimaalscheider separator voor je locale"
 	},
 	"de": {
