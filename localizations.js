@@ -13,6 +13,7 @@ String.toLocaleString({
 		"pitch3": "Disk Alarm will let you know in advance, and will spare you a lot of time!",
 		"begin": "001",
 		"end": 6,
+		"bug11": "Warning: In some circumstances, the 1.1 update just crash at launch. We have submitted a 1.1.1 fixing the problem but in the meantime the simple work around is either not have Disk Alarm in the login items or have the \"Hide\" checkbox checked.",
 		"releasenotes" : "1.0.1: •You can now click the free space displayed in MB GB to toggle it to a percentage.\n• Fixed a bug that showed multiple occurrences of Disk Alarm in the menu bar.\n1.0.2: • Now also displaying TB (instead of 1000 GB)\n• Removed annoying logs\n• Using less space in your menu bar.\n• Now using correct decimal separator for your locale."
 	},
 	"es": {
@@ -29,6 +30,7 @@ String.toLocaleString({
 		"pitch3": "Disk Alarm le avisará con la suficiente antelación y ahorrará mucho tiempo y problemas.",
 		"begin": "01",
 		"end": 7,
+		"bug11": "Atención: en algunos casos la actualización 1.1 puede fallar en en arranque. Hemos remitido una versión 1.1.1 solucionando el problema. Mientras tanto hay una manera sencilla de solucionarlo: puedes quitar Disk Alarm de la lista de los items de arranque o bien marcarle la casilla \"Oculto\" en dicha lista.",
 		"releasenotes" : "1.0.1: •You can now click the free space displayed in MB GB to toggle it to a percentage.\n• Fixed a bug that showed multiple occurrences of Disk Alarm in the menu bar.\n1.0.2: • El espacio se muestra ahora en TB (en lugar de 1000 GB), si es necesario.\n\n• Se han eliminado mensajes de log innecesarios.\n• Se ha reducido el espacio ocupado por el icono en la barra de menú.\n• Ahora se utiliza el separador decimal adecuado correspondiente a tus preferencias de localización."
 	},
 	"fr": {
