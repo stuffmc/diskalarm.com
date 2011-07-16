@@ -97,6 +97,7 @@ String.toLocaleString({
     "pitch3": "Disk Alarm ti avvertirà in anticipo e ti risparmierà molto tempo prezioso",
 		"begin": "001",
 		"end": 6,
+		"bug11": "Attenzione: In alcune istanze l'update 1.1 crasha al lancio. Abbiamo inviato la versione 1.1.1 con un fix.            Per il momento vi consigliamo di togliere Disk Alarm dagli elementi del login o di selezionare \"nascondi\".",
 		"releasenotes" : "1.0.1: •You can now click the free space displayed in MB GB to toggle it to a percentage.\n• Fixed a bug that showed multiple occurrences of Disk Alarm in the menu bar.\n1.0.2: • Now also displaying TB (instead of 1000 GB)\n• Removed annoying logs\n• Using less space in your menu bar.\n• Now using correct decimal separator for your locale."
 		}
 });
