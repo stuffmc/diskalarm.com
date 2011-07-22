@@ -75,7 +75,7 @@ a {
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	
-	height: 920px;
+	height: 1120px;
 	width: inherit;
 	margin: 0px auto;
 }
@@ -116,16 +116,35 @@ text-align: center;
 /*	z-index:-4;*/
 }
 
+#desktop {
+  background: url('img/desktop.jpg');
+  background-repeat: no-repeat;
+  margin-left: 75px;
+  width: 700px;
+  height: 630px;
+	-webkit-border-radius: inherit;
+	-moz-border-radius: inherit;
+	border-radius: inherit;
+	-moz-box-shadow: inherit;
+	-webkit-box-shadow: inherit;
+	box-shadow: inherit;
+}
+
+#bottom {
+  margin-top: 30px;
+}
+
 #anim-image {
-	margin-bottom: 10px;
+	margin-top: 10px;
+  margin-left: -20px;
 	-webkit-border-radius: inherit;
 	-moz-border-radius: inherit;
 	border-radius: inherit;
 
-	-moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-/*	z-index: -1;*/
+/*  -moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+*/
 }
 
 #anim, #anim2 {
@@ -133,14 +152,10 @@ text-align: center;
 	display: block;
 	margin-left: 207px;
 	top: 217px;
-/*	left: 200px;*/
 }
 
 #pomcast {
-/*	position: fixed;
-	top: 0px;
-	left: 0px;
-*/	background: url(img/pomcast.png);
+  background: url(img/pomcast.png);
 	width: 224px;
 	height: 66px;
 	float: left;

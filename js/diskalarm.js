@@ -34,11 +34,11 @@ function loadLocale(locale) {
 	$('#anim-image').attr('src', "img/"+String.locale+"/window-"+String.locale+".png");
 	$('#anim').attr('src', "img/"+String.locale+"/"+String.locale+ l("begin") +".png");
 
-	anim = new AnimatedPNG('anim', $('#anim').attr('src'), l("end"), 50);
-	anim.altText = anim.titleText = ' ';
-	anim.setRepeat(false);
-	anim.draw(false);
-	play();
+  // anim = new AnimatedPNG('anim', $('#anim').attr('src'), l("end"), 50);
+  // anim.altText = anim.titleText = ' ';
+  // anim.setRepeat(false);
+  // anim.draw(false);
+  //   play();
 }
 
 
@@ -69,3 +69,23 @@ function dismissAlert() {
 	// anim2.startAnimation();
 	// anim2.setRepeat(false);
 }
+/* http://www.sohtanaka.com/web-design/simple-page-peel-effect-with-jquery-css */
+$("#pageflip1").hover(function() { //On hover...
+	$("#pageflip img , .msg_block").stop()
+		.animate({ //Animate and expand the image and the msg_block (Width + height)
+			width: '307px',
+			height: '319px'
+		}, 500);
+	} , function() {
+	$("#pageflip img").stop() //On hover out, go back to original size 50x52
+		.animate({
+			width: '50px',
+			height: '52px'
+		}, 220);
+	$(".msg_block").stop() //On hover out, go back to original size 50x50
+		.animate({
+			width: '50px',
+			height: '50px'
+		}, 200); //Note this one retracts a bit faster (to prevent glitching in IE)
+});
+/* ------------------------------------------------------------ */
