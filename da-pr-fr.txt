@@ -1,6 +1,6 @@
 POUR DIFFUSION IMMÉDIATE
 
-Kerpen, Allemagne - 31 mars 2011 - Pomcast.biz est très heureux de présenter sa première application Mac OS X après plusieurs années de consultance iOS.
+Kerpen, Allemagne - 31 mai 2011 - Pomcast.biz est très heureux de présenter sa première application Mac OS X après plusieurs années de consultance iOS.
 
 Mac OS X vous prévient quand votre disque dur est rempli, mais malheureusement, en général, il est déjà trop tard pour réagir.
 
@@ -16,11 +16,13 @@ Fonctionalités:
 * Peux également rester dans voter barre de menu permeant un accès rapide ainsi qu'une visualisation de l'espace disque restant.
 * Vérifiez manuellement l'espace disque restant si vous ne voulez pas le faire de manière automatique.
 * Ajouté (option) automatiquement à vos éléments de démarrage afin que l'application soit démarrée au lancement de l'ordinateur.
-* A venir dans la version 1.0.1: Possibilité d'afficher l'espace à vérifier en pourcentage au lieu de MB/GB.
+* Possibilité d'afficher l'espace à vérifier en pourcentage au lieu de MB/GB.
+* Lorsque la limite est atteinte, les icônes verts passent en rouge.
 
 Configuration minimale:
 * Mac OS X Version 10.6.6 ou supérieur
 * Mac Intel
+* Une version PowerPC/10.5.8 est disponible à la demande
 
 Nous serions heureux de vous envoyer un Coupon afin que vous puissiez écrire un article sur l'application. De plus, vous pouvez utiliser http://diskalarm.com/img/IconDA.png afin d'illustrer votre article. Nous serions également heureux de répondre à toute requête.
 
