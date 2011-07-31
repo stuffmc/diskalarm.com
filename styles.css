@@ -75,7 +75,7 @@ a {
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	
-	height: 920px;
+	height: 1170px;
 	width: inherit;
 	margin: 0px auto;
 }
@@ -99,7 +99,7 @@ text-align: center;
 /*	z-index: -1;
 */}
 
-#background #shadow {
+.rounded {
 	-webkit-border-radius: inherit;
 	-moz-border-radius: inherit;
 	border-radius: inherit;
@@ -107,22 +107,44 @@ text-align: center;
 	-moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+#background #shadow {
 	
 	height: inherit;
 	width: inherit;
 /*	z-index:-4;*/
 }
 
+#desktop {
+  background: url('img/desktop.jpg');
+  background-repeat: no-repeat;
+  margin-left: 75px;
+  width: 700px;
+  height: 630px;
+	-webkit-border-radius: inherit;
+	-moz-border-radius: inherit;
+	border-radius: inherit;
+	-moz-box-shadow: inherit;
+	-webkit-box-shadow: inherit;
+	box-shadow: inherit;
+}
+
+#bottom {
+  margin-top: 30px;
+}
+
 #anim-image {
-	margin-bottom: 10px;
+	margin-top: 10px;
+  margin-left: -20px;
 	-webkit-border-radius: inherit;
 	-moz-border-radius: inherit;
 	border-radius: inherit;
 
-	-moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-/*	z-index: -1;*/
+/*  -moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+*/
 }
 
 #anim, #anim2 {
@@ -130,14 +152,10 @@ text-align: center;
 	display: block;
 	margin-left: 207px;
 	top: 217px;
-/*	left: 200px;*/
 }
 
 #pomcast {
-/*	position: fixed;
-	top: 0px;
-	left: 0px;
-*/	background: url(img/pomcast.png);
+  background: url(img/pomcast.png);
 	width: 224px;
 	height: 66px;
 	float: left;
@@ -177,6 +195,7 @@ text-align: center;
 	float: right;
 	color: gray;
 	margin-top: 15px;
+	width: 350px;
 }
 
 #lang a:hover {
@@ -267,4 +286,42 @@ text-align: center;
 
 #ppc {
 	color: green;
+}
+
+/* http://www.sohtanaka.com/web-design/simple-page-peel-effect-with-jquery-css */
+#pageflip {
+	position: relative;
+}
+#pageflip img {
+	width: 50px; height: 52px;
+	z-index: 99;
+	position: absolute;
+	right: 0; top: 0;
+	-ms-interpolation-mode: bicubic;
+}
+#pageflip .msg_block {
+	color: #000;
+	width: 50px; height: 50px;
+	position: absolute;
+	z-index: 50;
+	right: 0; top: 0;
+	font-size: 10pt;
+/*	background: #0F0;*/
+/*	text-indent: -9999px;*/
+	margin: 3px 2px 0px 0px;
+	text-align: right;
+}
+/* ------------------------------------------------------------ */
+
+#bug11 {
+	position: absolute;
+	top: 155px;
+	background: red;
+	color: white;
+	z-index: 999;
+	text-align: center;
+	width: 660px;
+	margin-left: 80px;
+	font-size: 18px;
+	padding: 10px 10px 10px 10px;
 }

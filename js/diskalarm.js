@@ -20,41 +20,25 @@ function loadLocale(locale) {
 	}
 	// console.log(String.locale)
 	document.title = l('%title', document.title);
-	// $(".twitter-share-button").first().attr("data-text", document.title);
 	// Browse tags
 	$('div,p,span,a').each( function() {
 	  // console.log( $(this).attr('id') + ' ' + $(this) + ' '  );
 		$(this).text(l($(this).attr('id')));
 	});
 	
-	$('#macappstore').first().attr('src', 'img/macappstore-'+String.locale+'.png');
-	// $('#screenshot').first().attr('src', 'img/en001.png');
+	$('#macappstore').first().attr('src', 'img/'+String.locale+'/macappstore-'+String.locale+'.png');
 	
 	document.documentElement.dir = l("%locale.dir", document.documentElement.dir);
 	document.documentElement.lang = String.locale || document.documentElement.lang;
 
 	$('#anim-image').attr('src', "img/"+String.locale+"/window-"+String.locale+".png");
 	$('#anim').attr('src', "img/"+String.locale+"/"+String.locale+ l("begin") +".png");
-	// anim.firstImage = $('#anim').attr('src');
-	// anim.draw(false);
-	
-	//    imageName - The name of this animation
-	//    firstImage - The filename of the first image
-	//    imageCount - The number of frames in the animation
-	//    delay - The default delay between frames
-	// function AnimatedPNG(imageName, firstImage, imageCount, delay)
-	
-	// console.log(l("end"));
-	anim = new AnimatedPNG('anim', $('#anim').attr('src'), l("end"), 50);
-	anim.altText = anim.titleText = ' ';
-	anim.setRepeat(false);
-	anim.draw(false);
-	// $("#button").hide();
-	play();
-	
-	
-	// $("#alert:first").css("display", "block");
-	// $("#alert:first").fadeIn();
+
+  // anim = new AnimatedPNG('anim', $('#anim').attr('src'), l("end"), 50);
+  // anim.altText = anim.titleText = ' ';
+  // anim.setRepeat(false);
+  // anim.draw(false);
+  //   play();
 }
 
 
@@ -85,3 +69,23 @@ function dismissAlert() {
 	// anim2.startAnimation();
 	// anim2.setRepeat(false);
 }
+/* http://www.sohtanaka.com/web-design/simple-page-peel-effect-with-jquery-css */
+$("#pageflip1").hover(function() { //On hover...
+	$("#pageflip img , .msg_block").stop()
+		.animate({ //Animate and expand the image and the msg_block (Width + height)
+			width: '307px',
+			height: '319px'
+		}, 500);
+	} , function() {
+	$("#pageflip img").stop() //On hover out, go back to original size 50x52
+		.animate({
+			width: '50px',
+			height: '52px'
+		}, 220);
+	$(".msg_block").stop() //On hover out, go back to original size 50x50
+		.animate({
+			width: '50px',
+			height: '50px'
+		}, 200); //Note this one retracts a bit faster (to prevent glitching in IE)
+});
+/* ------------------------------------------------------------ */
